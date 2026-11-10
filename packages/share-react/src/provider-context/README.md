@@ -15,7 +15,7 @@ npx vitest run packages/share-react/src/provider-context
 
 1. Read `provider-context.test.tsx`: why do both operations answer with Grace?
 2. **React.** Change the default of `CustomerContext` to `null`. Write `useCustomer()` with `use(CustomerContext)`, which throws `useCustomer needs a CustomerContext` when there is no provider.
-3. Render `<CustomerContext value={customer}>` instead of `.Provider`. React 19 still accepts the old form, but it is the legacy one.
+3. Render `<CustomerContext value={customer}>` instead of `.Provider`. React 19 still accepts the old form, but it is the earlier form.
 4. Move the read in `CartNote` behind the `show` check. `use` allows that, `useContext` does not.
 5. **GraphQL.** Remove `currentCustomerId`. Type the server with `new ApolloServer<Context>`, pass `{ contextValue: { customerId } }` to `executeOperation`, and read it in the third resolver parameter.
 6. **Node.** Remove `currentRequestId`. Create an `AsyncLocalStorage<{ requestId: string }>`, wrap `handleOrder` in `storage.run()`, and read the store in `audit`. Outside of a request, `audit` throws.
