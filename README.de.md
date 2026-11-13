@@ -101,8 +101,8 @@ Die Provider-Übung läuft in React 19, Apollo Server 5 und Node.js.
 
 - Workshop: [„Design Patterns als Funktionen“](https://workshops.mikebild.dev/w/design-patterns/remote/)
 - Folien: [slides.mikebild.dev/introduction-design-patterns](https://slides.mikebild.dev/introduction-design-patterns.html)
-- PDF: [introduction-design-patterns.pdf](https://objects.upraft.mikebild.info/site-media/mikebild/decks/introduction-design-patterns/introduction-design-patterns.pdf)
-- Video: [introduction-design-patterns.mp4](https://objects.upraft.mikebild.info/site-media/mikebild/decks/introduction-design-patterns/introduction-design-patterns.mp4)
+- PDF: [introduction-design-patterns.pdf](https://media.mikebild.dev/site/mikebild/decks/introduction-design-patterns/introduction-design-patterns.pdf)
+- Video: [introduction-design-patterns.mp4](https://media.mikebild.dev/site/mikebild/decks/introduction-design-patterns/introduction-design-patterns.mp4)
 
 ## Lizenz
 
